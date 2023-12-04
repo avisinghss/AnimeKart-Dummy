@@ -16,7 +16,9 @@ class MovieCard extends Component {
           <div className="plot">{plot}</div>
           <div className="price">Rs {price}</div>
           <div className="footer">
-            <div className="rating">{rating}</div>
+            <div className="rating pc-res">{rating} </div>
+            <div className="rating mob-res"><div>{rating}</div> <div>Rs {price}</div> </div>
+
             <div className="star-dis">
               <img
                 alt="decrease"
