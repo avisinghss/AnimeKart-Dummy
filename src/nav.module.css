@@ -1,0 +1,54 @@
+/* Navbar classes */
+
+.cartIcon {
+	height: 48px;
+	margin-right: 20px;
+}
+
+.nav {
+	height: 70px;
+	width: 100%;
+	background: #1c1b23;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 999;
+}
+
+.logo {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.title {
+	padding: 5px;
+	font-size: 30px;
+	color: #55ff00;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	margin-left: 20px;
+}
+
+.img {
+	height: 60px;
+}
+
+.cartIconContainer {
+	position: relative;
+	cursor: pointer;
+}
+
+.cartCount {
+	background: #14131a;
+	color: #55ff00;
+	border-radius: 50%;
+	border: 0.6px solid #55ff00;
+	padding: 4px 8px;
+	position: absolute;
+	right: 10px;
+	top: -5px;
+	font-size: 12px;
+	font-weight: 700;
+}
